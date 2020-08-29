@@ -1,0 +1,22 @@
+section#place-time {
+	div.container-fluid {
+		background-color: #e89bee;
+		color: white;
+		div.row {
+			div {
+				height: 100%;
+				div.carousel {
+					div.carousel-inner {
+						div.carousel-item {
+							img {
+								object-fit: cover;
+								height: 500px;
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

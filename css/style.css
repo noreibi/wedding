@@ -1,0 +1,146 @@
+.nav.header {
+  background-color: royalblue;
+}
+
+.nav.header div.container {
+  border: 2px solid red;
+}
+
+.nav.header div.container a.navbar-brand img {
+  border: 2px solid red;
+}
+
+main#main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main#main div.carousel {
+  position: relative;
+}
+
+main#main div.carousel div.carousel-inner {
+  max-height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /*filter: grayscale(70%);*/
+}
+
+main#main div.carousel div.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(225, 22, 201, 0.276);
+  color: white;
+}
+
+main#main div.carousel div.overlay div.container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main#main div.carousel div.overlay div.container div.row div .text-md-right {
+  text-align: right !important;
+}
+
+main#main div.carousel div.overlay div.container div.row div button {
+  overflow: visible;
+  text-transform: none;
+}
+
+.section.speakers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#place-time div.container-fluid {
+  background-color: #e89bee;
+  color: white;
+}
+
+section#place-time div.container-fluid div.row div {
+  height: 100%;
+}
+
+section#place-time div.container-fluid div.row div div.carousel div.carousel-inner div.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #9b70ad), to(#ed96f2));
+  background: linear-gradient(90deg, #1c3643, #9b70ad 25%, #ed96f2);
+  color: white;
+}
+
+footer div.container div.row div a {
+  color: white;
+}
+
+div.modal-fade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.btn-nori {
+  background-color: #e89bee;
+  color: white;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-nori:hover {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
